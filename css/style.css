@@ -1,0 +1,146 @@
+*{
+    background-color: #F3F5FC;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: #0f644d;
+    height: 100px;
+}
+
+.logo{
+    height: 50px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.content{
+    padding: 5%;
+    display: flex;
+}
+
+.input{
+    border-radius: 5px;
+    border: 1px solid #39c;
+    height: 15rem;
+    width: 100%;
+    text-align: start;
+    text-justify: distribute-all-lines;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    resize: none;
+}
+
+.botones{
+    display: flex;
+}
+
+.encrypt{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    background-color: #0A3871;
+}
+
+.decrypt{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 1px solid #000000;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    margin-left: 25%;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    
+}
+
+.right p{
+    margin: 30px;
+    margin-bottom: 50%;
+}
+
+.left p{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.left{
+    width: 400%;
+    margin-right: 20px;
+}
+
+.right{
+    width: 400%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+.result{
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+    .content{
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .right{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
